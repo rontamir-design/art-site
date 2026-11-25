@@ -235,9 +235,22 @@ header.site-header {
   cursor: zoom-in;
 }
 
+.card-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.card-links .sep {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
 .room-link {
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 0;
   background: none;
   border: none;
   padding: 0;
